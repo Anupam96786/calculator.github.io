@@ -20,34 +20,29 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #result{
-	height: 90px;
+	height: 25vh;
 }
 #history{
 	text-align: right;
-	height: 10px;
-	margin: 0 20px;
-	padding-top: 20px;
-	font-size: 15px;
+	height: 7vh;
+	font-size: 3vh;
 	color: #919191;
 }
 #output{
 	text-align: right;
-	height: 90px;
-	margin: 10px 20px;
-	font-size: 30px;
-}
-#keyboard{
-	height: 400px;
+	height: 18vh;
+	font-size: 3vh;
 }
 .operator, .number, .empty{
-	width: 45px;
-	height: 50px;
-	margin: 13px;
+	width: 7vh;
+    height: 7vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
 	float: left;
 	border-radius: 50%;
 	border-width: 0;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 3vh;
 }
 .number, .empty{
 	background-color: #eaedef;
@@ -60,24 +55,4 @@ body{
 }
 .operator:focus, .number:focus, .empty:focus{
 	outline: 0;
-}
-button:nth-child(4){
-	font-size: 20px;
-	background-color: #89bb15;
-}
-button:nth-child(8){
-	font-size: 20px;
-	background-color: #eb2d2d;
-}
-button:nth-child(12){
-	font-size: 20px;
-	background-color: #6164ee;
-}
-button:nth-child(16){
-	font-size: 20px;
-	background-color: #f53ca8;
-}
-button:nth-child(20){
-	font-size: 20px;
-	background-color: #ddf585;
 }
